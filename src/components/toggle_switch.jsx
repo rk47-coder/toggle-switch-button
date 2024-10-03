@@ -22,13 +22,13 @@ function ToggleSwitch (){
         <div>
             <label class="switch">
                 <p className="text1">{checked.btn1}</p>
-                <input  type="checkbox" onClick={OnClick('btn1')}></input>
+                <input  type="checkbox" onClick={() => OnClick('btn1')}></input>
                 <span class="slider round"></span>
                 </label>
 
                 <label class="switch">
                 <p className="text1">{checked.btn2}</p>
-                <input type="checkbox" onClick={OnClick('btn2')}></input>
+                <input type="checkbox" onClick={() => OnClick('btn2')}></input>
                 <span class="slider round"></span>
                 </label>
         </div>
